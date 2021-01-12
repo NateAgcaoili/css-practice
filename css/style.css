@@ -2,22 +2,38 @@ h2:hover {
     color: red;
 }
 
-.subtitle {
+h2[class=subtitle] {
     color: blue;
 }
+
+/* .subtitle {
+    color: blue;
+} */
 
 #services {
     color: green;
 }
 
-li:first-child {
-    color: steelblue;
-}
-
-li:last-child {
-    color: lavender;
-}
-
-li:nth-child(2){
+li:nth-child(2) {
     color: blanchedalmond;
+}
+
+h2 + a {
+    color: green;
+}
+
+textarea ~ button {
+    color: purple;
+}
+
+ul > li {
+    color: purple;
+}
+
+ul li {
+    color: green;
+}
+
+img[src^="../img/"] {
+    border: 10px solid black;
 }
