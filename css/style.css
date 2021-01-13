@@ -1,6 +1,7 @@
-body {
+/* body {
     background: rgba(0, 0, 0, 0.5);
-}
+} */
+
 #title {
     color: rgb(25, 0, 255)
 }
@@ -9,11 +10,15 @@ body {
     color:rgb(44, 118, 255)
 }
 
-#service-image {
+#linear-grad {
     height: 400px;
     width: 70%;
-    background: url("../img/img-2.jpg");
-    background-repeat: repeat;
+    background: linear-gradient(-90deg, rgb(0, 0, 0), rgba(0, 0, 0, 0));
     background-size: cover;
-    background-color: red;
+}
+
+#radial-grad {
+    height: 400px;
+    width: 70%;
+    background: radial-gradient(circle, red 20%, blue 40%, green 55%);
 }
