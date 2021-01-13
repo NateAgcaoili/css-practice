@@ -1,6 +1,6 @@
-/* body {
-    
-} */
+body {
+    background: rgba(0, 0, 0, 0.5);
+}
 #title {
     color: rgb(25, 0, 255)
 }
