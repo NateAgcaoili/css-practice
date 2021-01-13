@@ -1,0 +1,19 @@
+/* body {
+    
+} */
+#title {
+    color: rgb(25, 0, 255)
+}
+
+.subtitle {
+    color:rgb(44, 118, 255)
+}
+
+#service-image {
+    height: 400px;
+    width: 70%;
+    background: url("../img/img-2.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    background-color: red;
+}
