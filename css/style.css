@@ -2,14 +2,18 @@ body {
     background: linear-gradient(to bottom, rgb(15, 255, 243), rgb(0, 193, 252));
     text-transform: capitalize;
     text-align: justify;
+    font-size: 1.5em;
+    font-family: "Roboto", sans-serif;
 } 
 
 #title {
     color: rgb(255, 0, 149);
+    font-family: "Rubik", sans-serif;
 }
 
 .subtitle {
     color:rgb(255, 106, 230);
+    font-family: "Rubik", sans-serif;
 }
 
 #linear-grad {
@@ -17,6 +21,7 @@ body {
     width: 70%;
     background: linear-gradient(-90deg, rgb(0, 0, 0), rgba(0, 0, 0, 0));
     background-size: cover;
+    border: 10px dashed rgb(5, 255, 118);
 }
 
 #radial-grad {
@@ -28,3 +33,72 @@ body {
 .link {
     text-decoration: underline;
 }
+
+.italics {
+    font-style: italic;
+}
+
+#about-me-image {
+    height: 300px;
+    width: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
