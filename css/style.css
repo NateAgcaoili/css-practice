@@ -1,13 +1,15 @@
-/* body {
-    background: rgba(0, 0, 0, 0.5);
-} */
+body {
+    background: linear-gradient(to bottom, rgb(15, 255, 243), rgb(0, 193, 252));
+    text-transform: capitalize;
+    text-align: justify;
+} 
 
 #title {
-    color: rgb(25, 0, 255)
+    color: rgb(255, 0, 149);
 }
 
 .subtitle {
-    color:rgb(44, 118, 255)
+    color:rgb(255, 106, 230);
 }
 
 #linear-grad {
@@ -21,4 +23,8 @@
     height: 400px;
     width: 70%;
     background: radial-gradient(circle, red 20%, blue 40%, green 55%);
+}
+
+.link {
+    text-decoration: underline;
 }
